@@ -1,9 +1,11 @@
 import { Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
 
 export default function Index() {
   return (
-    <View className="bg-red-400">
-      <Text>Edit app/index.tsx to x this screen.</Text>
-    </View>
+    <SafeAreaView className="bg-slate-900 flex-1">
+      <Text className="text-white">Edit app/index.tsx to x this screen.</Text>
+    </SafeAreaView>
   );
 }
